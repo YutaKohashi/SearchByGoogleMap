@@ -1,0 +1,9 @@
+{
+    "name": "whoisで検索",
+    "version": "1.0",
+    "description": "表示中のページのドメインをwhoisで検索します。",
+    "permissions": ["contextMenus", "tabs", "http://*/*", "https://*/*"],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
