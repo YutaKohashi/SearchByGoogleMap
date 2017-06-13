@@ -1,9 +1,10 @@
 {
-    "name": "whoisで検索",
+    "name": "SearchByGoogleMap",
     "version": "1.0",
-    "description": "表示中のページのドメインをwhoisで検索します。",
+    "manifest_version": 2,
+    "description": "選択したテキストをGoogleMapで検索します。",
     "permissions": ["contextMenus", "tabs", "http://*/*", "https://*/*"],
     "background": {
-        "scripts": ["background.js"]
+        "scripts": ["main.js"]
     }
 }
